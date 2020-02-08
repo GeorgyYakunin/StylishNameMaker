@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Stylish Name Maker</string>
+    <string name="ads_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ads_bnr" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ads_inter" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="canceltxt">Cancel</string>
+    <string name="errorImg">Error..</string>
+    <string name="exitOpt">Do you want to exit?</string>
+    <string name="exitTxt">Click yes to exit!</string>
+    <string name="hint">Write Your Name here..</string>
+    <string name="instaTxt">Instagram Application is not installed</string>
+    <string name="msg">Please Allow Permission</string>
+    <string name="my_tatoo">My Photos</string>
+    <string name="noitem">No Step For Reset..</string>
+    <string name="removeOpt">Remove Option!</string>
+    <string name="removeTitle">Remove Change!</string>
+    <string name="removeTxt">Are You sure to want to deleted?</string>
+    <string name="removetxt">Are you sure to want to remove all changes?</string>
+    <string name="saveImg">Saved Successfully...</string>
+    <string name="shareTxt">Share with</string>
+    <string name="whatsappTxt">whatsapp Application is not installed</string>
+    <string name="yestxt">Yes</string>
+
+
+</resources>

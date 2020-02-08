@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/popupHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/pop_header">
+
+        <TextView
+            android:id="@+id/popupHeaderTxtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:maxLines="1"
+            android:shadowColor="@color/black"
+            android:shadowDx="-2.0"
+            android:shadowDy="-2.0"
+            android:shadowRadius="2.0"
+            android:textColor="#ffffffff"
+            android:textSize="28sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/popupBg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/popupHeader"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/popupbg" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/popupBg"
+        android:layout_alignLeft="@+id/popupBg"
+        android:layout_alignRight="@+id/popupBg"
+        android:layout_alignTop="@+id/popupBg"
+        android:layout_margin="6dp">
+
+        <GridView
+            android:id="@+id/gridView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:horizontalSpacing="6dp"
+            android:numColumns="3"
+            android:smoothScrollbar="true"
+            android:verticalSpacing="6dp" />
+    </RelativeLayout>
+</RelativeLayout>

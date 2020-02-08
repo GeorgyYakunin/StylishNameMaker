@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/myPopBackLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/pop_bg" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignBottom="@+id/myPopBackLayout"
+        android:layout_alignLeft="@+id/myPopBackLayout"
+        android:layout_alignRight="@+id/myPopBackLayout"
+        android:layout_alignTop="@+id/myPopBackLayout">
+
+        <RelativeLayout
+            android:id="@+id/leftTrans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/pop_btn_trans">
+
+            <ImageView
+                android:id="@+id/transp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="32dp" />
+
+            <ImageView
+                android:id="@+id/popupOkButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/transp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="27dp"
+                android:background="@drawable/done" />
+
+            <ImageView
+                android:id="@+id/popupCancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popupOkButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="6dp"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/cancel" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/txtBg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/leftTrans"
+            android:background="@drawable/pop_bg_trans">
+
+            <EditText
+                android:id="@+id/popUpEditTxt1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:textColor="@color/black"
+
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/popUpEditTxt2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popUpEditTxt1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/popUpEditTxt3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/popUpEditTxt2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="27dp"
+                android:layout_weight="1.0"
+                android:ellipsize="end"
+                android:inputType="text"
+                android:maxLength="30"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

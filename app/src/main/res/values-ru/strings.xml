@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="canceltxt">Отмена</string>
+    <string name="errorImg">Ошибка..</string>
+    <string name="exitOpt">Вы хотите выйти?</string>
+    <string name="exitTxt">Нажмите Да, чтобы выйти!</string>
+    <string name="hint">Напишите ваше имя здесь ..</string>
+    <string name="instaTxt">Приложение Instagram не установлено</string>
+    <string name="msg">Пожалуйста, разрешите разрешение</string>
+    <string name="my_tatoo">Мои фото</string>
+    <string name="noitem">Нет шага для сброса ..</string>
+    <string name="removeOpt">Удалить вариант!</string>
+    <string name="removeTitle">Удалить Изменение!</string>
+    <string name="removeTxt">Вы уверены, что хотите удалить?</string>
+    <string name="removetxt">Вы уверены, что хотите удалить все изменения?</string>
+    <string name="saveImg">Успешно сохранено...</string>
+    <string name="shareTxt">Поделиться с</string>
+    <string name="whatsappTxt">Приложение WhatsApp не установлено</string>
+    <string name="yestxt">Да</string>
+</resources>

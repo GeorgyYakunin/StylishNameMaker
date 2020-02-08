@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Example.stylishnamemaker">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.Example.stylishnamemaker.SolutionAplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ads_id" />
+
+
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivitySplash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivityClassSolution"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivitySolutioning"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Example.stylishnamemaker.AcitivityCategoryBG"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivitySavingSolution"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivityGalleryOfSolution"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.Example.stylishnamemaker.ActivitySharing"
+            android:screenOrientation="portrait" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+
+    </application>
+
+</manifest>

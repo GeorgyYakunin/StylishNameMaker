@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#ffff4081</color>
+    <color name="colorPrimary">#ff3f51b5</color>
+    <color name="colorPrimaryDark">#ff303f9f</color>
+    <color name="black">#050505</color>
+    <color name="white">#fcfcfc</color>
+
+
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+
+    <color name="transparent">#00000000</color>
+</resources>
